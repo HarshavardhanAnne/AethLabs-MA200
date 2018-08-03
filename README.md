@@ -10,8 +10,6 @@ This module is intended for use on Linux distributions, and has only been tested
 The microAeth MA Series instruments are portable scientific instruments which measure the mass
 concentration of light absorbing carbonaceous particles in a sampled aerosol. The MA200 communicates via four methods: USB 2.0, 3v3 TTL Serial, WiFi, Bluetooth Low Energy. This python module focuses on 3v3 ttl serial communcation.
 
-The Met One Instruments Aerocet 531s is a handheld particle counter that measures particle counts of fixed sizes. The Aerocet 531s communicates via two methods: USB port and RS232 serial port. This python module focuses on the RS232 serial communication and how to read/write data to the device.
-
 ## Prerequisites
 
 ### Materials

@@ -66,7 +66,6 @@ class MA200(object):
                 if (self._print_option): print ("(MA200): Attempting to reading data")
                 try:
                     temp = self._serialObj.readline()
-                    #print temp
                     if temp[0:5] == 'MA200':
                         self._data_buff = temp.rstrip('\r\n')
                         if (self.print_option): print ("(MA200): Data received")
