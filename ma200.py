@@ -68,7 +68,7 @@ class MA200(object):
                     temp = self._serialObj.readline()
                     if temp[0:5] == 'MA200':
                         self._data_buff = temp.rstrip('\r\n')
-                        if (self.print_option): print ("(MA200): Data received")
+                        if (self._print_option): print ("(MA200): Data received")
                         return self._data_buff
                     else:
                         return None
