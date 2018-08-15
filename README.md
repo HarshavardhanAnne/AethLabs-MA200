@@ -18,10 +18,10 @@ concentration of light absorbing carbonaceous particles in a sampled aerosol. Th
 
 ### Software
 
-Clone this repository using SSH(or download the .zip file)
+Clone this repository using HTTPS(or download the .zip file)
 
 ```
-git clone git@github.com:HarshavardhanAnne/AethLabs-MA200-serial.git
+git clone https://github.com/HarshavardhanAnne/AethLabs-MA200-serial.git
 ```
 
 Install the python2.7 serial library
